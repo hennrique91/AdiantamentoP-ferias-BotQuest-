@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --corfundo: #002355;
+    --font1: 'Montserrat', sans-serif;
+
+}
+
+body {
+
+    background-color: #002355;
+    font-family: var(--font1);
+
+
+}
+
+.text1 {
+
+
+    width: 1035px;
+    height: 223px;
+    left: 78px;
+
+
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 81px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    -webkit-text-stroke: 2px black;
+
+
+}
+
+.div_login {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #a4a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.div_oi{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #a4a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div_sensivel{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #a4a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.div_luta{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #a4a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div_send{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #a4a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons{
+
+    display: flex;
+}
+
+.descrit_icons{
+
+    color: #FFFFFF;
+    display: flex;
+}
+
