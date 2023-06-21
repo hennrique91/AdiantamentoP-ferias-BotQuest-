@@ -29,7 +29,7 @@ body {
 
     font-family: var(--font1);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 1000;
     font-size: 50px;
     line-height: 81px;
     text-align: center;
@@ -37,6 +37,20 @@ body {
     color: #FFFFFF;
 
     -webkit-text-stroke: 2px black;
+
+
+}
+
+.linha{
+
+    
+    position: absolute;
+    width: 800px;
+    
+    top: 306px;
+    
+    border: 5px solid #FFFFFF;
+
 
 
 }
@@ -88,6 +102,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -106,6 +121,7 @@ body {
 .icons{
 
     display: flex;
+    justify-content: space-between;
 }
 
 .descrit_icons{
@@ -114,3 +130,150 @@ body {
     display: flex;
 }
 
+h2{
+
+    color: #FFFFFF;
+}
+
+
+
+main{
+
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.imagens_vector{
+
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.section_esquerda{
+
+    width: 60%;
+    padding: 20px;
+    
+    
+}
+
+.descrit_icons{
+display: flex;
+justify-content: space-around;
+font-weight: 700;
+margin-bottom: 50px;
+
+
+
+}
+
+.info{
+
+    width: 60%;
+    
+
+}
+
+.section_direita{
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.logo_vw_dire{
+
+    
+  height: 150px; 
+  position: absolute;
+  top: 0;
+  margin-left: 155px;
+  margin-top: 50px;
+  
+  
+}
+
+.quadrado_dire{
+
+    width: 457px;
+height: 680px;
+}
+
+.section_direita{
+    position: relative;
+    width: 40%;
+    padding: 40px;
+    align-items: center;
+}
+
+
+
+.text_ad{
+
+    color: black;
+    position: absolute;
+    font-weight: 900;
+font-size: 39.96px;
+
+margin-top: 100px;
+
+
+}
+
+.imputs{
+
+    position: absolute;
+  top: 0;
+  margin-top: 120px;
+  padding: 23%;
+  display: grid;
+  grid-gap: 40px;
+}
+
+.inf_imputs{
+
+    position: absolute;
+  top: 0;
+  font-size: 30px;
+  margin-top: 120px;
+  padding: 23%;
+  display: grid;
+  grid-gap: 130px;
+  margin-right: 300px;
+}
+
+.imagens_direita{
+
+    margin-top: 50px;
+  
+}
+
+button{
+
+    margin-top: -150px;
+    color: var(--corfundo);
+    box-sizing: border-box;
+
+
+width: 274px;
+height: 92px;
+left: 1347px;
+top: 823px;
+
+background: linear-gradient(94.31deg, #01B0F1 -8.53%, #35BDF5 38.95%, #B1DBFF 116.35%);
+border: 6px solid rgba(255, 255, 255, 0.41);
+box-shadow: 4.44px 5.92px 8.14px rgba(0, 0, 0, 0.25);
+border-radius: 39.22px;
+}
+
+.robo{
+
+    margin-left: 520px;
+    margin-top: -50px;
+    width: 250px;
+}
