@@ -22,7 +22,7 @@ body {
 .text1 {
 
 
-    width: 1035px;
+   
     height: 223px;
     left: 78px;
 
@@ -40,6 +40,29 @@ body {
 
 
 }
+
+.seta_esq{
+
+    
+  top: 0;
+  left: 0;
+  margin-top: 400px;
+  
+}
+
+.seta_dir{
+
+    position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 400px;
+}
+
+.botao_volta{
+
+    margin-right: 50px;
+}
+
 
 .linha{
 
@@ -128,6 +151,9 @@ body {
 
     color: #FFFFFF;
     display: flex;
+   padding: 30px;
+    align-items: center;
+    margin-left: 20px;
 }
 
 h2{
@@ -162,13 +188,16 @@ main{
 
 .descrit_icons{
 display: flex;
-justify-content: space-around;
+
 font-weight: 700;
 margin-bottom: 50px;
-
-
+font-size: 23px;
+justify-content: space-between;
+align-items: center;
 
 }
+
+
 
 .info{
 
@@ -216,11 +245,12 @@ height: 680px;
 .text_ad{
 
     color: black;
-    position: absolute;
+    
     font-weight: 900;
 font-size: 39.96px;
+text-align: center;
 
-margin-top: 100px;
+margin-top: -600px;
 
 
 }
@@ -233,18 +263,25 @@ margin-top: 100px;
   padding: 23%;
   display: grid;
   grid-gap: 40px;
+  max-width: 300%;
+  height: auto;
 }
 
 .inf_imputs{
 
-    position: absolute;
+    
   top: 0;
-  font-size: 30px;
-  margin-top: 120px;
+  font-size: 25px;
+ margin-top: -380px;
   padding: 23%;
   display: grid;
-  grid-gap: 130px;
+  grid-gap: 80px;
   margin-right: 300px;
+  align-items: center;
+}
+
+.inf_imputs .id{
+    margin-top: 10px;
 }
 
 .imagens_direita{
@@ -253,15 +290,17 @@ margin-top: 100px;
   
 }
 
-button{
+.bt_enviar{
 
-    margin-top: -150px;
-    color: var(--corfundo);
+   
+    
     box-sizing: border-box;
+    margin-top: -70px;
+    
 
 
-width: 274px;
-height: 92px;
+width: 200px;
+height: 70px;
 left: 1347px;
 top: 823px;
 
@@ -271,9 +310,78 @@ box-shadow: 4.44px 5.92px 8.14px rgba(0, 0, 0, 0.25);
 border-radius: 39.22px;
 }
 
+.tc_enviar{
+
+    color: #002355;
+    box-sizing: border-box;
+    font-size: 45px;
+    font-weight: 700;
+    
+    padding: 30px;
+    text-decoration: none;
+    
+}
 .robo{
 
-    margin-left: 520px;
-    margin-top: -50px;
+    margin-left: 450px;
+    margin-top: -140px;
     width: 250px;
 }
+
+.borda_imputs{
+
+    width: 420px;
+height: 70px;
+flex-shrink: 0;
+
+border-radius: 39.22px;
+border: 3px solid #00101F;
+box-shadow: 4.440001010894775px 5.920001029968262px 8.140003204345703px 0px rgba(0, 0, 0, 0.25);
+
+margin-top: 50px;
+}
+
+.borda_imputs2{
+
+    width: 420px;
+height: 70px;
+flex-shrink: 0;
+
+border-radius: 39.22px;
+border: 3px solid #00101F;
+box-shadow: 4.440001010894775px 5.920001029968262px 8.140003204345703px 0px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.borda_imputs3{
+
+    width: 420px;
+height: 70px;
+flex-shrink: 0;
+
+border-radius: 39.22px;
+border: 3px solid #00101F;
+box-shadow: 4.440001010894775px 5.920001029968262px 8.140003204345703px 0px rgba(0, 0, 0, 0.25);
+
+
+    
+    
+}
+
+.imput_alinh{
+
+    display: grid;
+    grid-gap: 30px;
+}
+
+main {
+    transform: scale(0.8);
+    margin-top: -65px;
+    position: relative;
+  }
+
+  body {
+    overflow: hidden;
+  }
